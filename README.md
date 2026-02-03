@@ -1,11 +1,34 @@
 # 🚀 XTweaks
-![Version](https://img.shields.io/badge/version-1.7.0-blue.svg?style=for-the-badge&logo=windows)
+![Version](https://img.shields.io/badge/version-1.7.6-blue.svg?style=for-the-badge&logo=windows)
 ![Platform](https://img.shields.io/badge/platform-Windows_10%2F11-blue.svg?style=for-the-badge&logo=microsoft)
 ![Status](https://img.shields.io/badge/status-Active-success.svg?style=for-the-badge)
 
-**XTweaks** is the ultimate Windows optimization utility designed designed for gamers and power users. It combines a stunning, modern WPF interface with powerful backend scripts to boost FPS, lower latency, and maintain system stability.
+**XTweaks** is the ultimate Windows optimization utility designed for gamers and power users. It combines a stunning, modern WPF interface with powerful backend scripts to boost FPS, lower latency, and maintain system stability.
 
-> **Note**: Always running as Administrator to ensure all tweaks can be applied successfully.
+> **Note**: Always run as Administrator to ensure all tweaks can be applied successfully.
+
+---
+
+## 🔒 Why do I see a "Windows SmartScreen" or "Unknown Publisher" Warning?
+
+If you launch XTweaks and see a blue window saying **"Windows protected your PC"** or a yellow warning, **please do not panic.**
+
+### 🛑 Why is this happening?
+Microsoft requires developers to purchase expensive "Code Signing Certificates" (costing hundreds of dollars/year) to verify their identity. As an independent developer providing this tool for the community, I currently use a **Self-Signed Certificate**. 
+
+Because of this, Windows does not strictly "know" me yet, so it displays a default warning for **any** new software that doesn't have a corporate license.
+
+### ✅ Is it safe?
+**Absolutely.**
+- XTweaks is a legitimate optimization tool used by the community.
+- You can scan the `.exe` on [VirusTotal](https://www.virustotal.com/) before running it.
+- We have an active community on Discord where you can verify user experiences.
+
+### ▶️ How to Run
+1. When the blue SmartScreen appears, click **"More info"**.
+2. Click **"Run anyway"**.
+
+*Over time, as more users run the app, this warning will disappear automatically as Microsoft starts to trust the application.*
 
 ---
 
@@ -14,7 +37,7 @@
 ### 🖥️ System Monitoring & Optimization
 - **Real-Time Dashboard**: Monitor CPU, GPU, and RAM usage with precision.
 - **Intelligent Memory Cleaner**: Frees up standby list and working sets to reduce stuttering.
-- **System Info**: Detailed hardware specification at a glance.
+- **System Info**: Detailed hardware specifications at a glance.
 
 ### ⚡ Network & Latency
 - **Ping Reducer**: Optimized registry settings for stable connection.
