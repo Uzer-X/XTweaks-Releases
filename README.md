@@ -1,5 +1,5 @@
 # 🚀 XTweaks
-![Version](https://img.shields.io/badge/version-1.7.6-blue.svg?style=for-the-badge&logo=windows)
+![Version](https://img.shields.io/badge/version-1.7.9-blue.svg?style=for-the-badge&logo=windows)
 ![Platform](https://img.shields.io/badge/platform-Windows_10%2F11-blue.svg?style=for-the-badge&logo=microsoft)
 ![Status](https://img.shields.io/badge/status-Active-success.svg?style=for-the-badge)
 
